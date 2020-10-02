@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    /*ingen padding el marginal på body*/
+    padding: 0;
+    margin: 0;
+    /*fonten jag vill använda i variabel*/
+    --standard-font-family: 'Calibri', 'Georgia', Serif, Verdana, Helvetica;
+    font-family: 'Calibri', 'Georgia', Serif;
+    color: darkgray;
+    /*font strl*/
+    --standard-font-size: 1.1rem;
+    --mobile-font-size: 0.7rem;
+    /*färger för siten i variabler*/
+    --primary-color: orange;
+    --secondary-color: #333;
+    --border-menu-item-color: darkgray;
+}
+.left {
+    float: left;
+    width: 15%;
+    padding: 15px;
+    margin-top: 7px;
+}
+
+.right {
+    float: left;
+    width: 15%;
+    padding: 15px;
+    margin-top: 7px;
+}
+
+.main {
+    float: left;
+    width: 70%;
+    padding: 0 20px;
+    margin-top: 200px;
+    height: 70vh;
+}
+
+
+/* Footer */
+.footer-container {
+    display: flex;
+    border-top: 2px solid var(--primary-color);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.footer-box {
+    flex: 1
+}
